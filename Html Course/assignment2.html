@@ -11,23 +11,22 @@
         font-family: Arial, sans-serif;
         background-color: #f9f9f9;
         margin: 2px;
-        padding: 10px;
+        padding: 5px;
     }
 
     .main {
-        margin: 0px;
-        padding: 0px;
+        margin: 2px;
+        padding: 2px;
         display: flex;
         background-color: #f5f5f5;
         text-align: center;
         flex-wrap: wrap;
-    align-content: center;
-    justify-content: space-evenly;
+        align-content: center;
+        justify-content: space-evenly;
     }
 
     h1 {
         text-align: center;
-
     }
 
     .image {
@@ -37,7 +36,10 @@
         border-radius: 3%;
 
     }
-
+    .image:hover {
+        transform: scale(1.05);
+        transition: transform 0.3s ease;
+    }
 
     .brand {
         text-align: center;
@@ -55,20 +57,22 @@
 
     .note {
         font-size: small;
-        /* background-color: yellow; */
+        /* background-color: yellow;  */
     }
-    .button{
-        background-color: hsl(0, 33%, 97%);
+
+    .button {
+        /* background-color: hsl(0, 33%, 97%); */
         color: black;
         font-size: 16px;
         margin: 2px;
         text-align: center;
         /* text-shadow: hsl(0, 67%, 2%); */
-        
+
+
     }
-    .button:hover{
+
+    /* .button:hover{
         /* color: #b72323; */
-    }
 </style>
 
 <body>
@@ -93,7 +97,7 @@
             </div>
         </div>
     </div>
-</div>
+    </div>
     <br>
     <div class="main">
         <div class="image">
@@ -114,7 +118,7 @@
             </div>
         </div>
     </div>
-</div>
+    </div>
 
     <br>
 
