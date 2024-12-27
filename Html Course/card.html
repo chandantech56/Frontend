@@ -1,98 +1,113 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
 <style>
-    body{
+    body {
         padding: 0;
         margin: 0;
         align-items: center;
         background-color: aliceblue;
     }
-    .mains{
+
+    .mains {
         margin: 2px;
         padding: 2px;
         display: flex;
         background-color: rgb(244, 240, 192);
         text-align: center;
         /* flex-wrap: wrap; */
-        align-content: center; 
+        align-content: center;
         /* background-image:url(/pic.jpeg);
         background-repeat: no-repeat; */
-        
-        
-        
+
+
+
 
     }
+
     .heading {
         color: #2d14eb;
     }
-    .image{
-        
+
+    .image {
+
         padding: 10px;
         margin: 20px;
         border: solid 1px hwb(0 44% 53%);
         border-radius: 5%;
         background-color: white;
-        
-     
+
+
 
     }
-    .table{
+
+    .table {
         text-align: center;
-        
+
     }
-    
-    .paragraph{
+
+    .paragraph {
         font-size: 16px;
         text-align: center;
     }
-    .button{
-    
-    }
-    .image:hover{
-        transform:scale(1.05);
-        transition: transform 0.3s ease;
+
+    button{
+
+        background: #ff0000;
+        color: hsl(60, 96%, 49%);
     }
 
+    .image:hover {
+        transform: scale(1.05);
+        transition: transform 0.3s ease;
+    }
 </style>
+
 <body>
     <div class="mains">
         <div class="image">
             <img src="/pic.jpeg" alt="pic" height="150px" width="150px">
-        
-        <div class="heading">
-            <h2>Chandan kumar</h2> </div>
-            
-        
-        <div class="paragraph"> <mark>I am a Web Developer....</mark></div>
-    <div class="table">
-        <table>
-            <thead>
-                <tr>
-                    <th>Following</th>
-                    <th>Followers</th>
-                    <th>Post</th>
-                </tr>
-            </thead>
-            <tr>
-                <td>5K</td>
-                <td>1000K</td>
-                <td>5K</td>
-            </tr>
-        </table>
-    
 
-    <div class="button"><button>Message</button>
-        <button>Follow Me</button>
+            <div class="heading">
+                <h2>Chandan kumar</h2>
+            </div>
+
+
+            <div class="paragraph"> <mark>I am a Web Developer....</mark></div>
+            <div class="table">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Following</th>
+                            <th>Followers</th>
+                            <th>Post</th>
+                        </tr>
+                    </thead>
+                    <tr>
+                        <td>5K</td>
+                        <td>1000K</td>
+                        <td>5K</td>
+                    </tr>
+                </table>
+
+            </div>
+            <span id="button"><button>Message</button>
+                <button>Follow Me</button></span>
+
+        </div>
+
     </div>
-</div>
-</div>
-</div>
+
     </div>
-</div>
+
+    </div>
+    </div>
+
 </body>
+
 </html>
