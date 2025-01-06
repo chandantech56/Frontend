@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>menubar</title>
+</head>
+<style>
+    *{
+        margin: 0;
+        padding: 0;
+        
+    }
+    .nav{
+        background-color: aquamarine;
+        padding: 10px;
+        margin: 10px;
+
+    }
+    .nav ul{
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+
+    }
+    .nav ul li{
+        display:inline-block;
+        justify-content: center;
+        margin: 10px;
+        font-size: 20px;
+        font-weight: 500;
+        
+    }
+    .logo{
+        float: left;
+    
+    }
+    .nav ul li a{
+        display: inline-block;
+        padding: 10px;
+        text-decoration: none;
+        color: black;
+
+    }
+    .nav ul li a:hover{
+        background-color: black;
+        color: white;
+        border: 2px solid blueviolet;
+        border-radius: 50px;
+        border-color: blueviolet;
+    }
+
+</style>
+<body>
+
+    <div class="nav">
+        <div class="logo"><a href="#"><img src="/assignment image/swiggy.png" alt="logo pic" width="100px" height="50px"></a></div>
+        <div>
+            
+            <ul>
+                
+                <li><a href="#home" class="active">Home</a> </li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#service">Service</a></li>
+                <li><a href="#project">Project</a></li>
+                <li><a href="#contact">Contact</a></li>
+
+            </ul>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,185 @@
+/* General reset and base styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Header styles */
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px;
+    background-color: hsla(120, 6%, 83%, 0.617);
+    color: white;
+    box-shadow: #333 0px 5px 5px;
+    background-image: url(/assign3/back.jpg);
+    background-size: cover;
+    backface-visibility:initial;
+}
+
+header img {
+    height: 100px;
+    width: auto;
+}
+
+.nav ul {
+    list-style-type: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.nav ul li {
+    margin: 0 10px;
+}
+
+.nav ul li a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+   background-color:hsla(0, 0%, 20%, 0.778);
+
+    font-weight: bold;
+    padding: 5px 10px;
+    transition: background-color 0.3s;
+}
+
+.nav ul li a:hover,
+.nav ul li a.active {
+    background-color: #333;
+    color: white;
+    border-radius: 5px;
+}
+
+.heading h1 {
+    text-align: center;
+    font-size: 2rem;
+    margin-top: 0;
+}
+
+/* Content styles */
+.content {
+    padding: 20px;
+    text-align: center;
+
+}
+
+.content p {
+    font-size: 1rem;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+.content video {
+    border: 2px solid #4CAF50;
+    border-radius: 10px;
+}
+
+/* Image galleries */
+.infra,
+.services,
+.food {
+    padding: 20px 0;
+    text-align: center;
+}
+
+.infra img,
+.services img,
+.food img {
+    margin: 10px;
+    border: 2px solid #ddd;
+    border-radius: 10px;
+    transition: transform 0.3s;
+}
+
+.infra img:hover,
+.services img:hover,
+.food img:hover {
+    transform: scale(1.1);
+}
+
+/* Table styling */
+table {
+    width: 80%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    text-align: left;
+    background-color: white;
+}
+
+thead {
+    background-color: #4CAF50;
+    color: white;
+}
+
+th, td {
+    padding: 10px;
+    border: 1px solid #ddd;
+}
+
+tbody tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+tbody tr:hover {
+    background-color: #f1f1f1;
+}
+
+/* Form styles */
+.form {
+    text-align: center;
+    margin: 20px 0;
+}
+
+form {
+    display: inline-block;
+    background-color: white;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+form fieldset {
+    border: 1px solid #4CAF50;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+form legend {
+    font-weight: bold;
+    color: #4CAF50;
+}
+
+form label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+form input,
+form textarea {
+    width: calc(100% - 20px);
+    padding: 5px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+form button {
+    padding: 10px 10px;
+    border: none;
+    background-color: #4CAF50;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+form button:hover {
+    background-color: #333;
+}

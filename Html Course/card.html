@@ -8,25 +8,22 @@
 </head>
 <style>
     body {
-        padding: 0;
-        margin: 0;
+        padding: 10px;
+        margin: 10px;
         align-items: center;
-        background-color: aliceblue;
+        background-image:linear-gradient(90deg, #f6d365 50%, #6de14d 100%);
     }
 
     .mains {
-        margin: 2px;
-        padding: 2px;
-        display: flex;
-        background-color: rgb(244, 240, 192);
+        margin: 5px;
+        padding: 20px;
+        display: inline-block;
+        justify-content: center;
         text-align: center;
-        /* flex-wrap: wrap; */
-        align-content: center;
-        /* background-image:url(/pic.jpeg);
-        background-repeat: no-repeat; */
-
-
-
+        flex-wrap: wrap;  
+        border: solid 1px hwb(0 44% 53%);
+        border-radius: 5%;
+        background-color: white ;
 
     }
 
@@ -34,20 +31,19 @@
         color: #2d14eb;
     }
 
-    .image {
-
-        padding: 10px;
-        margin: 20px;
-        border: solid 1px hwb(0 44% 53%);
-        border-radius: 5%;
-        background-color: white;
-
-
-
+    
+    img{
+        border: 1px solid #1b181e;
+        border-radius: 50%;
+        box-shadow: hsla(0, 2%, 13%, 0.911) 5px 1px 10px 1px;
+        box-sizing: border-box;
     }
+
 
     .table {
         text-align: center;
+        border: 1px solid blue;
+        box-shadow: #1b181e 5px 5px 5px 5px;
 
     }
 
@@ -74,11 +70,12 @@
             <img src="/pic.jpeg" alt="pic" height="150px" width="150px">
 
             <div class="heading">
-                <h2>Chandan kumar</h2>
+                <h2>Chandan Kumar</h2>
             </div>
 
 
             <div class="paragraph"> <mark>I am a Web Developer....</mark></div>
+            <br>
             <div class="table">
                 <table>
                     <thead>
@@ -88,14 +85,16 @@
                             <th>Post</th>
                         </tr>
                     </thead>
+                    <tbody>
                     <tr>
-                        <td>5K</td>
+                        <td>1K</td>
                         <td>1000K</td>
                         <td>5K</td>
                     </tr>
+                </tbody>
                 </table>
 
-            </div>
+            </div> <br>
             <span id="button"><button>Message</button>
                 <button>Follow Me</button></span>
 
@@ -106,8 +105,50 @@
     </div>
 
     </div>
+
+    <div class="mains">
+        <div class="image" style="
+    padding-top: 5px;
+    padding-right: 5px;
+    padding-left: 0px;
+">
+            <img src="/pic.jpeg" alt="pic" height="150px" width="150px">
+
+            <div class="heading">
+                <h2>Chandan Kumar</h2>
+            </div>
+
+
+            <div class="paragraph"> <mark>I am a Web Developer....</mark></div>
+            <br>
+            <div class="table">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Following</th>
+                            <th>Followers</th>
+                            <th>Post</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                    <tr>
+                        <td>1K</td>
+                        <td>1000K</td>
+                        <td>5K</td>
+                    </tr>
+                </tbody>
+                </table>
+
+            </div> <br>
+            <span id="button"><button>Message</button>
+                <button>Follow Me</button></span>
+
+        </div>
+
+    </div>
     </div>
 
+    </div>
 </body>
 
 </html>
