@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+        }
+
+        .header {
+            background: #333;
+            color: white;
+            padding: 10px 20px;
+        }
+
+        .logo h1 a {
+            color: white;
+            text-decoration: none;
+        }
+
+        .nav ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+        }
+
+        .nav ul li {
+            margin: 0 15px;
+        }
+
+        .nav ul li a {
+            color: white;
+            text-decoration: none;
+            padding: 5px 10px;
+            transition: background-color 0.3s, color 0.3s;
+        }
+
+        .nav ul li a.active,
+        .nav ul li a:hover {
+            background-color: white;
+            color: #333;
+            border-radius: 5px;
+        }
+
+        .content {
+            text-align: center;
+            padding: 50px 20px;
+            background: #f4f4f4;
+        }
+
+        .content h2 {
+            font-size: 2.5rem;
+            margin-bottom: 20px;
+        }
+
+        .content p {
+            font-size: 1.1rem;
+            line-height: 1.6;
+            max-width: 700px;
+            margin: 0 auto 20px;
+            color: #555;
+        }
+
+        .content img {
+            border-radius: 50%;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+        }
+    </style>
+</head>
+
+<body>
+    <div class="header">
+        <div class="logo">
+            <h1><a href="#">Portfolio</a></h1>
+        </div>
+        <div class="nav">
+            <ul>
+                <li><a href="#" class="active">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Portfolio</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="content">
+        <h2>Welcome to my portfolio</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis ut non soluta, necessitatibus quas
+            explicabo ducimus facere animi aspernatur veniam, aliquam, quibusdam totam maiores hic reiciendis culpa
+            sunt adipisci accusamus magnam suscipit praesentium iusto quo? Dolorum suscipit numquam consequatur
+            quae.</p>
+        <img src="/Html Course/pic.jpeg" alt="profile" width="200" height="200">
+    </div>
+</body>
+
+</html>

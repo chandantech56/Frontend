@@ -1,0 +1,21 @@
+body{
+    background-color: lightblue;
+}
+h1{
+    color: #442fff;
+    text-align: center;
+    border-radius: 5px 5px 0px 0px gray;
+}
+div{
+    color: red;
+    background-color: burlywood;
+    text-align: center;
+}
+p{
+    
+    text-align: justify;
+}
+hr{
+    border: 1px solid #353434;
+    border-radius: gray 0px 5px 5px 5px ;
+}
