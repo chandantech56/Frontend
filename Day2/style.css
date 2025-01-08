@@ -1,0 +1,20 @@
+*{
+    background-color: aliceblue;
+    font-family: cursive;
+
+}
+.div-class{
+    color: royalblue;
+    background: #000;
+
+}
+#div-id{
+    color: crimson;
+    background-color: lightyellow;
+}
+table,th,td{
+    border: 2px solid #731eea;
+    border-collapse: collapse;
+
+
+}
