@@ -108,8 +108,8 @@ nav ul li a:hover {
     background: #0056b3;
 }
 
-/* Responsive Design */
-/* @media (max-width: 768px) {
+/* Responsive Design  */
+@media (max-width: 768px) {
     .header-section {
         flex-direction: column;
         text-align: center;
@@ -126,4 +126,4 @@ nav ul li a:hover {
     .content .intro {
         flex-direction: column;
     }
-} */
+}

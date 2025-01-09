@@ -1,0 +1,66 @@
+/* body{
+    padding: 0;
+    margin: 0;
+
+    font-family: sans-serif;
+    background-color: azure;
+}
+    
+.header-section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;  
+    padding: 0px;
+    background: #043156;
+    box-shadow: 0 5px 5px gray;
+    position: sticky;
+    top: 0px;
+    width: 100%;
+}
+    
+
+.header-section>h1{
+    /* text-align: left; */
+    /* font-size: 25px;
+    color: #0bde23;
+    margin: 10px;
+
+}
+
+.header-section nav ul{
+    display: flex;
+    list-style: none;
+    text-align: center;
+    padding: 5px;
+    
+}
+.header-section nav ul li{
+    padding: 10px;
+    
+    text-align: center;
+    
+    
+}
+.header-section nav ul a{
+    text-decoration: none;
+    color: rgb(248, 247, 249);
+    /* background-color: rgb(19, 14, 24); */
+    /* padding-left: 5px;
+    padding-right: 5px;
+} */
+/* .header-section .btn {
+    background-color: #ff4500;
+    color: rgb(243, 246, 47);
+    padding:5px 5px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+.header-section nav ul a:hover{
+    background-color: royalblue;
+    color: tomato;
+    border-radius: 5px;
+}
+
+ */
+
+ 
