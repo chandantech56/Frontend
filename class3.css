@@ -1,0 +1,38 @@
+/* All combinator Selector following step by step
+
+/* Desendent selector */
+/*div p{
+    background-color: red;
+}
+/* child selector */
+/* section > p{
+    background-color: green;
+}
+
+/* sibling selector */
+/* div + span{
+    background-color: blueviolet;
+} */
+/*general selector(subsequent selector) */
+/* div  ~ p{
+    background-color: turquoise;
+}  */ 
+/* ------------------------------------- */
+/* Pseudo Element */
+p::first-letter{
+    background-color: royalblue;
+    font-weight: 600;
+    font-size: large;
+}
+p::first-line{
+    background-color: salmon;
+}
+ul>li::marker{
+    color: red;
+}
+ol>li::marker{
+    color: rgb(13, 228, 74);
+}
+span::before{
+    content: url(../Day1/favicon.jpg);
+}
