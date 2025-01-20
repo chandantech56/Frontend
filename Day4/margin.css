@@ -1,0 +1,29 @@
+.header{
+    border: 2px solid #00ff55;
+    /* text-align: center; */
+    margin: 10px;
+}
+section{
+    border: 2px solid purple;
+    text-align: center;
+    margin: 40px 100px 40px 100px;
+    padding: 40px;
+}
+.navbar{
+    padding: 10px;
+    margin: 10px;
+    background-color: rgb(34, 32, 30);
+    text-align: center;
+    color: aliceblue;
+    
+
+
+}
+ul li{
+    list-style: none;
+    text-decoration: none;
+    padding: 30px;
+    display: inline;
+    position: sticky;
+    top: 0; 
+} 
