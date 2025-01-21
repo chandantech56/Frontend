@@ -1,0 +1,197 @@
+/* General Reset */
+body, ul, li {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    line-height: 1.6;
+    overflow-x:hidden;
+}
+
+/* Header Styling */
+.heading {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #f8f9fa;
+    padding: 10px 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    /* position:fixed; */
+}
+
+.logo img {
+    display: block;
+    width: 100px;
+    height: 60px;
+    
+}
+
+/* Menu Styling */
+.menu {
+    flex-grow: 1;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    
+}
+
+.menu nav ul {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.menu nav ul li {
+    position: relative;
+}
+
+.menu nav ul li a {
+    text-decoration: none;
+    color: #333;
+    font-size: 18px;
+    padding: 5px 15px;
+    transition: color 0.3s ease, background-color 0.3s ease;
+    border-radius: 4px;
+}
+
+.menu nav ul li a:hover {
+    color: white;
+    background-color: #007bff;
+}
+
+/* Social Icon */
+.menu nav ul li img {
+    vertical-align: middle;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+
+.menu nav ul li img:hover {
+    transform: scale(1.1);
+}
+
+    
+    
+
+.Category,.product{
+    margin: 2px;
+    padding: 2px;
+    display: flex;
+    background-color: rgb(227, 231, 208);
+    text-align: center;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: space-evenly;   
+    overflow-y: hidden;
+}
+.store-category h1{
+    text-align: center;
+}
+.Cat1 .Cat2 .cat3 .Cat4 .Cat5 .Cat6 .Cat7 .Cat8, .product{
+    border: 1px solid gray;
+    padding: 5px;
+    display: inline;
+    text-wrap: wrap;
+    text-align: justify;
+    
+}
+
+.Category a{
+    text-decoration: none;
+    color: rgb(8, 83, 234);
+    
+}
+
+footer{
+    padding: 0;
+    margin: 0;
+    background-image: url(image/map.png);
+    text-align: center;
+}
+.footer-final{
+    background-color: hsl(210, 36%, 4%);
+    color: #f8f9fa;
+}
+.footer-final:hover{
+    background-color: hsl(211, 93%, 11%);
+    color: hsl(210, 17%, 98%);
+}
+.page{
+    background-color: #333;
+}
+.page ul li {
+    display: inline;
+    padding: 45px;
+    
+
+}
+ul li a{
+    text-decoration: none;
+    color: aqua;
+    
+}
+ul li a:hover{
+    color: #f8f9fa;
+    text-decoration: underline;
+}
+
+.contact-Us pre{
+    text-align: left;
+    /* font-weight: 500; */
+    padding-top: 30px;
+    background-color: #33333348;
+    font: bold;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+/* Product for buy */
+.product{
+    box-sizing: border-box;
+    padding: 30px 50px;
+    margin: 50px 30px;
+    border: 1px solid #333;
+    text-align: center;
+
+}
+.buy a{
+    background-color: hsl(338, 93%, 60%);
+    border-radius: 5px 5px 5px ;
+    color: hwb(254 2% 67%);
+    padding: 4px 1px;
+    text-decoration: none;
+    font-weight: 700;
+    text-align: center;
+
+}
+.buy a:hover{
+    background-color: hsl(64, 100%, 50%);
+    color: #ff0026;
+}
+.product{
+    display: inline-flex;
+    padding: 5px;
+    margin: 2px;
+    border-radius: 5px;
+}
+button{
+    background-color: #007bff;
+    color: azure;
+    font-weight: 500;
+}
+button:hover{
+    color: #ff0026;
+    background-color: aqua;
+
+}
+.image>img{
+    width: 200px;
+    height: 150px;
+}
+img:hover {
+    transform: scale(1.05);
+    transition: transform 0.3s ease;
+}

@@ -1,0 +1,43 @@
+.parent{
+    background-color: aqua;
+    padding: 1rem;
+    /* position: relative; */
+    min-height: 200vh;
+}
+.child1{
+    background-color: bisque;
+    padding: 1rem;
+    position: absolute;
+    top: 0;
+    left: 7rem;
+}
+.child2{
+    background-color: #26da0a;
+    padding: 1rem;
+    position: fixed;
+    top: 50px;
+    right: 4rem;
+}
+.child3{
+    margin: 10px;
+    background-color: #ff3232;
+    padding: 1rem;
+    position: sticky;
+    top: 20px;
+    left: 1rem;
+
+}
+
+p{
+    line-height: 1.3;
+    text-align: justify;
+    
+
+
+}
+img{
+    margin-right: 1rem;
+    float: left;
+    padding-right: 20px;
+
+}
