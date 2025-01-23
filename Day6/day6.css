@@ -1,0 +1,30 @@
+p> span{
+    background-color: darkorange;
+    padding: 5px;
+}
+.parent{
+    background-color: aquamarine;
+    display: flex;
+    padding: 1rem;
+    justify-content: space-around;
+}
+.child1{
+    background-color: blue;
+    padding: 1rem;
+    
+}
+.child2{
+    background-color:blueviolet;
+    padding: 1rem;
+    
+}
+.child3{
+    background-color:brown;
+    padding: 1rem;
+    
+}
+.child4{
+    background-color:crimson;
+    padding: 1rem;
+    
+}
