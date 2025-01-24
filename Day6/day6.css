@@ -1,4 +1,4 @@
-p> span{
+/* p> span{
     background-color: darkorange;
     padding: 5px;
 }
@@ -26,5 +26,37 @@ p> span{
 .child4{
     background-color:crimson;
     padding: 1rem;
+    
+} */
+body{
+    min-height: 200vh;
+    background-color: blanchedalmond;
+}
+
+ul{
+    display: flex;
+    background-color: rebeccapurple;
+    justify-content: space-around;
+    position: sticky;
+    left:0;
+    right: 0;
+    top: -10px;
+    
+}
+li{
+    display: inline;
+    padding: 20px;
+    text-align: center;
+   
+}
+a{
+    text-decoration: none;
+    color: aliceblue;
+    text-transform: capitalize;
+    padding: 20px;
+}
+a:hover{
+    color: black;
+    background-color: aliceblue;
     
 }
