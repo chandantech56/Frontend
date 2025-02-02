@@ -1,0 +1,208 @@
+.container {
+    box-sizing: border-box;
+    padding: 2px;
+    margin: 5px;
+    flex-wrap: wrap;
+
+}
+
+.navbar {
+    box-shadow: 5px 2px 5px 3px;
+    padding: 15px;
+}
+
+
+.navbar a {
+    color: aliceblue;
+    font-size: 16px;
+    font-weight: 500;
+    /* flex-wrap: wrap; */
+    /* gap: 2px; */
+
+}
+
+.menubar {
+    padding: 0;
+}
+
+a:hover {
+    color: rgb(40, 26, 233);
+    background-color: #f6f5f8;
+    padding: 5px;
+    margin: auto;
+
+}
+
+.logo {
+    font-size: 25px;
+
+    font-weight: 700;
+
+}
+
+.row {
+
+    margin-top: 80px;
+    border-radius: 10px;
+    margin-right: -50px;
+    margin-left: 10px;
+    margin-bottom: 20px;
+    background-color: #88baf2;
+
+    box-shadow: 5px 5px 10px 5px;
+
+
+}
+
+.col-sm img {
+    border: 1px solid #2d2b2b;
+    border-radius: 5px;
+    margin-left: 50px;
+
+}
+
+.fa {
+    padding: 5px;
+    font-size: 20px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    border-radius: 50%;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+}
+
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+}
+
+.fa-google {
+    background: #dd4b39;
+    color: white;
+}
+
+.fa-linkedin {
+    background: #007bb5;
+    color: white;
+}
+
+.fa-youtube {
+    background: #bb0000;
+    color: white;
+}
+
+.fa-instagram {
+    background: #125688;
+    color: white;
+}
+
+button.btn {
+    background-color: hwb(249 12% 0%);
+    border: none;
+    color: white;
+    padding: 5px 10px;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 5px;
+}
+.btn:hover{
+    background-color: #f6f5f8;
+}
+
+footer {
+    text-align: center;
+    background-color: #2d2b2b;
+    color: aliceblue;
+    margin-right: -50px;
+    font-size: 15px;
+
+}
+
+footer:hover {
+    color: darkblue;
+    background-color: rgb(19, 211, 208);
+}
+
+h2 {
+    text-decoration: underline;
+    text-align: center;
+
+}
+
+p {
+    line-height: 2.1;
+
+}
+
+.hero1>.row {
+    background-color: gold;
+    margin-right: 10px;
+    margin-left: 10px;
+    box-shadow: 5px 5px 10px 5px;
+}
+
+.hero2>.row {
+    background-color: #f5f6f5;
+    margin-right: 10px;
+    margin-left: 10px;
+    box-shadow: 5px 5px 10px 5px;
+}
+
+.hero3>.row {
+    background-color: #c9ec1f;
+    margin-right: 10px;
+    margin-left: 10px;
+    box-shadow: 5px 5px 10px 5px;
+}
+
+.hero4>.row {
+    background-color: deeppink;
+    margin-right: 10px;
+    margin-left: 10px;
+    box-shadow: 5px 5px 10px 5px;
+}
+
+.hero5 {
+    background-color: coral;
+    margin-right: 10px;
+    margin-left: 10px;
+    box-shadow: 5px 5px 10px 5px;
+
+}
+.hero6>.row{
+    background-color:#3B5998;
+    margin-right: 10px;
+    margin-left: 10px;
+    box-shadow: 5px 5px 10px 5px;
+    color: thistle;
+    
+}
+
+li {
+    color: black;
+    font-weight: 700;
+    display: flex;
+    padding: 5px;
+    list-style-type: disc;
+
+
+}
+form>.contact-form{
+    /* font-size: 10px; */
+    
+}
+.address-side{
+    padding-top: 20px;
+}
+.progress{
+    /* padding: 20px; */
+}
