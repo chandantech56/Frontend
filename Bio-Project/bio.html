@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My-Bio</title>
+    <link rel="shortcut icon" href="my photo.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+        integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+
+    <style>
+        .container {
+            box-sizing: border-box;
+            padding: 2px;
+            margin: 5px;
+            flex-wrap: wrap;
+
+        }
+
+        .navbar {
+            box-shadow: 5px 2px 5px 3px;
+            padding: 15px;
+        }
+        
+
+        .navbar  a {
+            color: aliceblue;
+            font-size: 16px;
+            font-weight: 500;
+            /* flex-wrap: wrap; */
+            /* gap: 2px; */
+
+        }
+        .menubar{
+            padding: 0;
+        }
+
+        a:hover {
+            color: rgb(40, 26, 233);
+            background-color: #f6f5f8;
+            padding: 5px;
+            margin: auto;
+
+        }
+
+        .logo {
+            font-size: 25px;
+            
+            font-weight: 700;
+
+        }
+
+        .row {
+
+            margin-top: 80px;
+            border-radius: 10px;
+            margin-right: -50px;
+            margin-left: 10px;
+            margin-bottom: 20px;
+            background-color: #88baf2;
+            
+            box-shadow: 5px 5px 10px 5px;
+
+
+        }
+
+        .col-sm img {
+            border: 1px solid #2d2b2b;
+            border-radius: 5px;
+            margin-left: 50px;
+
+        }
+
+        .fa {
+            padding: 5px;
+            font-size: 20px;
+            width: 30px;
+            text-align: center;
+            text-decoration: none;
+            margin: 5px 2px;
+            border-radius: 50%;
+        }
+
+        .fa:hover {
+            opacity: 0.7;
+        }
+
+        .fa-facebook {
+            background: #3B5998;
+            color: white;
+        }
+
+        .fa-twitter {
+            background: #55ACEE;
+            color: white;
+        }
+
+        .fa-google {
+            background: #dd4b39;
+            color: white;
+        }
+
+        .fa-linkedin {
+            background: #007bb5;
+            color: white;
+        }
+
+        .fa-youtube {
+            background: #bb0000;
+            color: white;
+        }
+
+        .fa-instagram {
+            background: #125688;
+            color: white;
+        }
+
+        .btn {
+            background-color: DodgerBlue;
+            border: none;
+            color: white;
+            padding: 5px 10px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+
+        footer {
+            text-align: center;
+            background-color: #2d2b2b;
+            color: aliceblue;
+            margin-right: -50px;
+            font-size: 15px;
+
+        }
+
+        footer:hover {
+            color: darkblue;
+            background-color: rgb(19, 211, 208);
+        }
+
+        h2 {
+            text-decoration: underline;
+            text-align: center;
+
+        }
+        p{
+            line-height: 2.1;
+            
+        }
+
+        .hero1>.row {
+            background-color:gold;
+            margin-right: 10px;
+            box-shadow: 5px 5px 10px 5px;
+        }
+
+        .hero2>.row {
+            background-color: #f5f6f5;
+            margin-right: 10px;
+            box-shadow: 5px 5px 10px 5px;
+        }
+
+        .hero3>.row {
+            background-color: #c9ec1f;
+            margin-right: 10px;
+            box-shadow: 5px 5px 10px 5px;
+        }
+
+        .hero4>.row {
+            background-color:deeppink;
+            margin-right: 10px;
+            box-shadow: 5px 5px 10px 5px;
+        }
+
+        .hero5>.row {
+            background-color:coral;
+            margin-right: 10px;
+            box-shadow: 5px 5px 10px 5px;
+
+        }
+
+        li {
+            color: black;
+            font-weight: 700;
+            display: flex;
+            padding: 5px;
+            list-style-type: disc;
+            
+
+        }
+    </style>
+</head>
+
+<body>
+    <header class="container">
+
+        <div class="container">
+            <nav class="navbar navbar-dark bg-dark fixed-top">
+                <a class="logo bg-danger " href="#">Chandan'Bio</a>
+                <a class="menubar" href="#">Home</a>
+                <a class="menubar" href="#">About</a>
+                <a class="menubar" href="#">Services</a>
+                <a class="menubar" href="#">Skill</a>
+                <a class="menubar" href="#">Project</a>
+                <a class="menubar" href="#">Contact</a>
+            </nav>
+        </div>
+
+        <div class="row ">
+            <div class="col-7">
+                <h1 style>Hello, I'm Chandan Kumar</h1>
+                <h4 style="text-align: center; font-family:  sans-serif;"> (I am a Web Developr)</h4>
+                <hr style="color: #2d2b2b;">
+                <p>A highly motivated and creative web developer with a strong foundation in front-end technologies.
+                    Seeking to apply my skills and knowledge in building responsive, user-friendly websites and
+                    applications while continuing to learn and grow in the field of web development..
+
+                </p>
+                <button class="btn"><i class="fa fa-download"></i> Download CV</button>
+
+                <a href="#" class="fa fa-facebook"></a>
+                <a href="#" class="fa fa-twitter"></a>
+                <a href="#" class="fa fa-google"></a>
+                <a href="#" class="fa fa-linkedin"></a>
+                <a href="#" class="fa fa-youtube"></a>
+                <a href="#" class="fa fa-instagram"></a>
+            </div>
+            <div class="col-5 sm ">
+                <img src="my photo.png" alt="" width="90%">
+            </div>
+
+
+    </header>
+    <hr>
+    <hr>
+    <section class="hero1 ">
+        <div class="row">
+            <div class="col-4">
+                <img src="my photo.png" alt="" width="100%">
+
+            </div>
+            <div class="col-8">
+                <h2>About Me</h2>
+                <p>Hey 👋 
+                    I am Chandan Kumar, 🎓 a Mathematics graduate passionate about transitioning into the IT industry and building a career in software development. With a solid foundation in analytical thinking, I have been gaining hands-on experience in programming languages and web development technologies, including HTML, CSS, JavaScript, Python, React, Bootstrap, and SQL (Frontend developer) Also Git & GitHub.
+                    
+                    I am a fast learner with a keen interest in solving complex problems and embracing new challenges. My goal is to contribute to the development of innovative software solutions that make an impact.
+                    
+                    I am excited to join a team where I can apply my skills, learn from industry professionals, and grow as a developer while delivering meaningful results.
+                     Thank you 🙏👍 I am always
+                    eager to learn new skills and work on exciting projects. Feel free to connect with me on LinkedIn or
+                    reach out to me through email.</p>
+
+            </div>
+        </div>
+    </section>
+
+    <section class="hero2 ">
+        <h2>SKILL </h2>
+        <div class="row">
+
+            <div class="col-4">
+                <!-- <h2>SKILL </h2> <br> -->
+                <h5>Front-end Development</h5>
+                <p>******************************</p>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JAVASCRIPT</li>
+                <li>BOOTSTRAP</li>
+                <li>Responsive Design</li>
+                <li>CSS Flexbox & Grid</li>
+            </div>
+            <div class="col-5">
+                <h5>Back-End Development:</h5>
+                <p>******************************</p>
+                <li>PYTHON</li>
+                <li>SQL(Detabase)</li>
+                <h5>VERSION CONTROL & TOOLS:</h5>
+                <li>GIT & GITHUB</li>
+                <li>VS Code | Chrome Developer ToolS</li>
+                <p style="font-weight: 600;">Commercial Building Facility Management.</p>
+
+            </div>
+            <div class="col-3">
+                <img src="web-developer-skills-800x390.jpg" alt="" width="100%" height="100%">
+
+            </div>
+        </div>
+    </section>
+
+    <section class="hero3 ">
+        <div class="row">
+            <div class="col-4">
+                <img src="educa.png" alt="" width="100%" height="100%">
+
+            </div>
+            <div class="col-8">
+                <h2>EDUCATIONAL</h2> <br>
+                <h4>Bachelor of Science (B.sc) in mathematics</h4>
+
+                <p>NPU University], [Jharkhand] <BR>
+                    Graduation Year: [2018]
+                </p>
+
+                <h4>CERTIFICATION</h4>
+                <p>[Introduction to web development] — [great learning] — [2024]
+
+                </p>
+
+            </div>
+        </div>
+    </section>
+    <section class="hero6 ">
+        <div class="row">
+            <div class="col-4">
+                <img src="Work Experience.png" alt="" width="100%" height="100%">
+
+            </div>
+            <div class="col-8">
+                <h2>WORK- EXPERIENCE</h2> <br>
+                <img style="border-radius: 50%; align-items: center;" src="UMIYA.jpeg" width="10%" >
+                <h4>COMPANY:: UMIYA BUILDERS & DEVELOPERS</h4>
+                <P><STRONG>MAINTENANCE TECHNICIAN</STRONG></P>
+                <P>May 2019 to Present · 5 yrs 10 mos. <br>
+                    <strong>Bengaluru, Karnataka, India·</strong> On-site</P>
+
+            </div>
+        </div>
+    </section>
+
+    <section class="hero4 ">
+        <div class="row">
+
+            <div class="col-8">
+                <h2>ADITIONAL INFORMATION</h2>
+                <p> <STRONG>Languages Known:</STRONG> Hindi, English
+                    <BR><STRONG>Hobbies:</STRONG> Coding, Reading Tech Blogs,
+                </p>
+            </div>
+            <div class="col-4">
+                <img src="web.png" alt="" width="100%" height="100%">
+
+            </div>
+        </div>
+    </section>
+
+    <section class="hero5 ">
+        <div class="row">
+            <div class="col-5">
+                <img src="con.jpeg" alt="" width="100%" height="100%">
+
+            </div>
+            <div class="col-1">
+                
+            </div>
+            <div class="col-6">
+                <h2> CONTACT US</h2>
+                <form action="contact">
+                    <fieldset>
+                        <legend>
+                            <label for="text">Enter Your Name</label> <br>
+                            <input type="text" placeholder="Enter Your Name"> <br>
+                            <label for="email ">Enter Your email</label> <br>
+                            <input type="email" placeholder="Enter Your Email"> <br>
+                            <label for="number">Enter Your Mobile No. </label> <br>
+                            <input type="number" placeholder="Enter Your Mobile No."> <br> <br>
+
+                            <textarea id="subject" name="subject" placeholder="Write something.."
+                                style="height:100px"></textarea>
+                            <br>
+                            <button type="submit">Submit</button> <br>
+
+
+                        </legend>
+                    </fieldset>
+                </form>
+
+            </div>
+        </div>
+    </section>
+<address>Bangalore</address>
+    <footer>&copy; Copyright 2025. All Right Reserved</footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
