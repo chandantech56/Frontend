@@ -1,14 +1,15 @@
 .container {
     box-sizing: border-box;
-    padding: 2px;
-    margin: 5px;
+    padding: 0px;
+    margin: 0px;
     flex-wrap: wrap;
 
 }
 
 .navbar {
     box-shadow: 5px 2px 5px 3px;
-    padding: 15px;
+    padding: 10px;
+    margin-bottom: 10px;
 }
 
 
@@ -22,19 +23,24 @@
 }
 
 .menubar {
-    padding: 0;
+    padding: 10px;
+    padding-left: 30px;
+    text-decoration: none;
 }
 
 a:hover {
     color: rgb(40, 26, 233);
     background-color: #f6f5f8;
-    padding: 5px;
+    padding: 10px;
     margin: auto;
-
+    border-radius: 10px;
+    text-decoration: none;
+    transform: scale(0.2s);
+    transition: ease-in;
 }
 
 .logo {
-    font-size: 25px;
+    font-size: 30px;
 
     font-weight: 700;
 
@@ -42,7 +48,7 @@ a:hover {
 
 .row {
 
-    margin-top: 80px;
+    margin-top: 10px;
     border-radius: 10px;
     margin-right: -50px;
     margin-left: 10px;
@@ -123,7 +129,8 @@ footer {
     background-color: #2d2b2b;
     color: aliceblue;
     margin-right: -50px;
-    font-size: 15px;
+    font-size: 20px;
+    padding: 20px;
 
 }
 
@@ -185,6 +192,12 @@ p {
     box-shadow: 5px 5px 10px 5px;
     color: thistle;
     
+}
+.hero7>.row {
+    background-color: #dce7e1;
+    margin-right: 10px;
+    margin-left: 10px;
+    box-shadow: 5px 5px 10px 5px;
 }
 
 li {
